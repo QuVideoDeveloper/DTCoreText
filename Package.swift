@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
 
 import PackageDescription
 
@@ -16,7 +16,7 @@ let package = Package(
             targets: ["DTCoreText"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Cocoanetics/DTFoundation.git", from: "1.7.18"),
+        .package(url: "https://github.com/QuVideoDeveloper/DTFoundation.git", branch: "develop"),
     ],
     targets: [
         .target(
